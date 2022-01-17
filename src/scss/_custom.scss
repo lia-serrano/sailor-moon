@@ -1,0 +1,28 @@
+//Colores base de la web
+$pink: #c9047d;
+$sMoon: #0955A4;
+$sMercury: #118CDA;
+$sVenus: #F08320;
+$sMars: #D10A16;
+$sJupiter: #118028;
+$sNeptune : #167065;
+$sUranus : #243178;
+$sPluto : #323231;
+$sSaturn: #7661AE;
+$sChibiusa: #EB6FAE;
+$tuxedo: #FBF5FF;
+
+
+
+//Se asignan a la paleta de colores de bootstrap
+$primary: $pink;
+
+//Tipografia
+$display-font-weight: 800;
+
+
+
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
