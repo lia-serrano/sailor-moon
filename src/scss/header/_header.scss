@@ -1,1 +1,48 @@
-@use '../custom';
+@use "../custom";
+
+h2, h3, h5 {
+  color: #c9047d;
+  font-family: "Berkshire Swash", cursive;
+}
+html,
+body {
+  position: relative;
+  
+}
+
+body {
+  background: rgb(255, 255, 255);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+ 
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 8rem;
+  height: 8rem;
+}
+
+.swiper-slide img {
+  display: block;
+  
+}
+.logo {
+  width: 15rem;
+}
+.card-img-top {
+  width: 6rem;
+  height: 8rem;
+}
+.img-modal {
+  height: 28rem;
+}
